@@ -1,0 +1,18 @@
+{
+    "name": "parcel example",
+    "description": "Parcel WebExt example, with declarativeNetRequest API",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}
